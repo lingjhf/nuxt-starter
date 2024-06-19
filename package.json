@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "pnpm nx run-many -t generate -p  admin official"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a",
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.3.13",
+    "@nuxt/schema": "^3.12.2",
+    "@pinia/nuxt": "^0.5.1",
+    "@unocss/nuxt": "^0.61.0",
+    "eslint": "^9.5.0",
+    "nx": "19.3.0",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^4.9.5",
+    "@papaya-app/postcss-px-to-rem": "^0.0.3"
+  },
+  "dependencies": {
+    "@nuxt/kit": "^3.12.2",
+    "nuxt": "^3.12.2",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint . --cache"
+    ]
+  }
+}
