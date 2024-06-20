@@ -3,7 +3,7 @@ import type { NuxtPage } from "nuxt/schema"
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt'],
+  modules: ['@unocss/nuxt', "@nuxt/ui"],
   hooks: {
     'pages:extend'(pages) {
       removePagesMatching(/\.ts$/, pages)

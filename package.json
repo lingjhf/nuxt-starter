@@ -13,17 +13,21 @@
   "devDependencies": {
     "@nuxt/eslint-config": "^0.3.13",
     "@nuxt/schema": "^3.12.2",
+    "@papaya-app/postcss-px-to-rem": "^0.0.3",
     "@pinia/nuxt": "^0.5.1",
     "@unocss/nuxt": "^0.61.0",
+    "@vant/nuxt": "^1.0.4",
     "eslint": "^9.5.0",
     "nx": "19.3.0",
     "simple-git-hooks": "^2.11.1",
-    "typescript": "^4.9.5",
-    "@papaya-app/postcss-px-to-rem": "^0.0.3"
+    "typescript": "^4.9.5"
   },
   "dependencies": {
     "@nuxt/kit": "^3.12.2",
+    "@nuxt/ui": "^2.17.0",
+    "axios": "^1.7.2",
     "nuxt": "^3.12.2",
+    "vant": "^4.9.1",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
   },

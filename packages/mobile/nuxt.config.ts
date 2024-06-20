@@ -3,7 +3,7 @@ import { PostcssPxToRem } from '@papaya-app/postcss-px-to-rem'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt'],
+  modules: ['@unocss/nuxt','@vant/nuxt', "@nuxt/ui"],
   app: {
     head: {
       meta: [
